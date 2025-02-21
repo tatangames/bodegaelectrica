@@ -106,15 +106,6 @@
             document.getElementById("divcc").style.display = "block";
         });
 
-        $('#select-equipo').select2({
-            theme: "bootstrap-5",
-            "language": {
-                "noResults": function(){
-                    return "Búsqueda no encontrada";
-                }
-            },
-        });
-
     </script>
 
     <script>
